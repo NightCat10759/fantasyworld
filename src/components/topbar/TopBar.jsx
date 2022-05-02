@@ -1,4 +1,4 @@
-import './topbar.css'
+import './topbar.css';
 
 export default function TopBar() {
     const user = true;
