@@ -1,0 +1,36 @@
+.home{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:  linear-gradient(
+                        rgba(255,255,255,0.5),
+                        rgba(255,255,255,0.5)
+                        ),url("https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-size: cover ;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.homeTitle{
+    font-size: 50px;
+    margin: 20px;
+}
+
+.homeButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.5);
+    border: white 1px solid;
+    font-size: large;
+    color: black;
+    border-radius: 10px;
+    padding: 30px 100px;
+}
+
+.homeButton:hover{
+    background-color: rgba(255,255,255,0.5);
+    position: relative;
+    bottom: -3px;
+}
