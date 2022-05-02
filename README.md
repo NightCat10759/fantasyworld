@@ -1,6 +1,7 @@
 # Fantasy World
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was create by Da-ming,Cheng,
+It's game station with membership system and chatroom.
 
 ### `npm start`
 
