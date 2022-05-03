@@ -1,0 +1,63 @@
+.chatroom{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:  linear-gradient(
+                        rgba(255,255,255,0.5),
+                        rgba(255,255,255,0.5)
+                        ),url("https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-size: cover ;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.chatroomTitle {
+    font-size: 50px;
+}
+
+.board{
+    border: solid 1px black;
+    background-color: aliceblue;
+    width: 800px;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.messages{
+    display: flex;
+    text-align: center;
+}
+
+.message {
+    border-radius: 10px;
+    border: none;
+    padding: 3px;
+    height: 30px;
+    width: 50px;
+    background-color: antiquewhite;
+}
+
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submitInput{
+    width: 700px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.submitButton{
+    height: 40px;
+    width: 80px;
+    color: aliceblue;
+    background-color: teal;
+    border-radius: 10%;
+}

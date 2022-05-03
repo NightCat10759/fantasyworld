@@ -1,4 +1,5 @@
 import Home from "./pages/home/Home";
+import Chatroom from "./pages/chatroom/Chatroom";
 import TopBar from "./components/topbar/TopBar";
 
 function App() {

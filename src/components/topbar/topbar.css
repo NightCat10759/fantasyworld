@@ -58,6 +58,7 @@ flex:6
 
 /*控制裡面字的大小*/
 .topListItem{
+    padding: 10px;
     margin-right: 20px;
     font-size: 18px;
     font-weight: 300;
@@ -65,6 +66,7 @@ flex:6
 }
 
 .topListItem:hover{
+    border-radius: 10px;
     background-color: aliceblue;
 }
 

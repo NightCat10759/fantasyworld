@@ -23,14 +23,18 @@
     cursor: pointer;
     background-color: rgba(255,255,255,0.5);
     border: white 1px solid;
-    font-size: large;
+    font-size: 20px;
     color: black;
     border-radius: 10px;
     padding: 30px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif TC', serif;
+    transition: transform 1s;
 }
 
 .homeButton:hover{
     background-color: rgba(255,255,255,0.5);
     position: relative;
     bottom: -3px;
+    transform: translate(0,8px) ;
 }

@@ -13,16 +13,16 @@ export default function TopBar() {
         <div className="topCenter">
             <ul className="topList">
                 <li className="topListItem">
-                    隨機聊天
+                    <p>隨機聊天</p>
                 </li>
                 <li className="topListItem">
-                    遊戲區
+                    <p>遊戲區</p>
                 </li>
                 <li className="topListItem">
-                    討論區
+                    <p>討論區</p>
                 </li>
                 <li className="topListItem">
-                    好友清單
+                    <p>好友清單</p>
                 </li>
             </ul>
         </div>
