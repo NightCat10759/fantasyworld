@@ -1,7 +1,7 @@
 # Fantasy World
 
 This project was create by Da-ming,Cheng,
-It's a game station with membership system and chatroom.
+It's a blog with membership system and chatroom.
 
 ### `npm start`
 
