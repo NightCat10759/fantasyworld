@@ -1,0 +1,15 @@
+.App{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    background:  linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+        ),url("https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+}
+
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

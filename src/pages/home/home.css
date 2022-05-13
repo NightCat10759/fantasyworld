@@ -1,5 +1,9 @@
 .home{
-    height: calc(100vh - 50px);
+    margin-left: 250px;
+    position: relative;
+    overflow: auto;
+    height: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,23 +22,11 @@
     margin: 20px;
 }
 
-.homeButton {
-    margin-top: 20px;
-    cursor: pointer;
-    background-color: rgba(255,255,255,0.5);
-    border: white 1px solid;
-    font-size: 20px;
-    color: black;
-    border-radius: 10px;
-    padding: 30px 100px;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Noto Serif TC', serif;
-    transition: transform 1s;
+.subHomeList{
+    display: flex;
 }
 
-.homeButton:hover{
-    background-color: rgba(255,255,255,0.5);
-    position: relative;
-    bottom: -3px;
-    transform: translate(0,8px) ;
+.subHomeTitle{
+    font-size: 20px;
+    margin: 20px;
 }
