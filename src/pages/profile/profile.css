@@ -1,0 +1,16 @@
+.Profile{
+    margin-left: 250px;
+    
+    overflow: auto;
+    height: 100vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:  linear-gradient(
+                        rgba(255,255,255,0.5),
+                        rgba(255,255,255,0.5)
+                        ),url("https://images.pexels.com/photos/1266302/pexels-photo-1266302.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover ;
+}
