@@ -33,8 +33,10 @@ export default function SideBar() {
         })}
         </ul>
         <div className="info">
-            <div className='infoIcon'><i class="topIcon fa-brands fa-linkedin"></i></div>
-            <div className='infoIcon'><i className="topIcon fab fa-brands fa-github-square"></i></div>
+            <div className='infoIcon'><a href="https://www.linkedin.com/in/%E5%A4%A7%E9%8A%98-%E9%84%AD-b006b022b/">
+                    <i class="topIcon fa-brands fa-linkedin"></i></a></div>
+            <div className='infoIcon'><a href="https://github.com/NightCat10759?tab=repositories">
+                    <i className="topIcon fab fa-brands fa-github-square"></i></a></div>
         </div>
         <div className='infoEmail'>email:</div>
     </div>

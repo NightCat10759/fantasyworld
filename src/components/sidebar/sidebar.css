@@ -93,5 +93,6 @@
 }
 
 .infoIcon > *:hover{
+    cursor: pointer;
     color: #ffffff80;
 }
