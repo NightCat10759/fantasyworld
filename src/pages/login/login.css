@@ -2,7 +2,7 @@
     margin-left: 250px;
     
     overflow: auto;
-    height: 100vw;
+    height: 52vw;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -46,6 +46,7 @@
 }
 
 .loginRegisterButton{
+    text-decoration: none;
     position: absolute;
     top: 60px;
     right: 20px;
@@ -55,4 +56,14 @@
     padding: 10px;
     color: white;
     border-radius: 10px;
+}
+
+.loginRegisterButton:hover{
+    cursor: pointer;
+    background-color: rgb(0, 95, 95);
+}
+
+.loginRegisterButton a{
+    text-decoration: none;
+    color: white;
 }

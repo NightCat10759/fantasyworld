@@ -24,6 +24,7 @@ function App() {
         <Route path="/features"  element={user ? <Features /> : <Login />} />
         <Route path="/profile"  element={user ? <Profile /> : <Login />} />
         <Route path="/login"  element={<Login />} />
+        <Route path="/register"  element={<Register />} />
       </Routes>
     </Router>
     </div>

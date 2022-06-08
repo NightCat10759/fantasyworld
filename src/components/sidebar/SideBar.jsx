@@ -38,7 +38,7 @@ export default function SideBar() {
             <div className='infoIcon'><a href="https://github.com/NightCat10759?tab=repositories">
                     <i className="topIcon fab fa-brands fa-github-square"></i></a></div>
         </div>
-        <div className='infoEmail'>email:</div>
+        <div className='infoEmail'>email: mike1688s@gmail.com</div>
     </div>
   )
 }
